@@ -12,6 +12,7 @@
 		08B8C44B2B497D5500A0D7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B8C44A2B497D5500A0D7F6 /* Assets.xcassets */; };
 		08B8C44E2B497D5500A0D7F6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B8C44D2B497D5500A0D7F6 /* Preview Assets.xcassets */; };
 		08B8C4632B497FF600A0D7F6 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4622B497FF600A0D7F6 /* MainTabView.swift */; };
+		08B8C4652B49825800A0D7F6 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4642B49825800A0D7F6 /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		08B8C44A2B497D5500A0D7F6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08B8C44D2B497D5500A0D7F6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		08B8C4622B497FF600A0D7F6 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		08B8C4642B49825800A0D7F6 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +142,7 @@
 		08B8C45D2B497E3A00A0D7F6 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
+				08B8C4642B49825800A0D7F6 /* ProfileView.swift */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				08B8C4652B49825800A0D7F6 /* ProfileView.swift in Sources */,
 				08B8C4492B497D5200A0D7F6 /* ContentView.swift in Sources */,
 				08B8C4472B497D5200A0D7F6 /* SwiftUIPracticeApp.swift in Sources */,
 				08B8C4632B497FF600A0D7F6 /* MainTabView.swift in Sources */,
