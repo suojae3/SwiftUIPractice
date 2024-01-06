@@ -23,36 +23,9 @@ struct ProfileView: View {
                     Spacer()
                     
                     HStack(spacing: 8) {
-                        VStack {
-                            Text("3")
-                                .font(.subheadline)
-                                .fontWeight(.semibold)
-                            
-                            Text("Posts")
-                                .font(.footnote)
-                        }
-                        .frame(width: 76)
-                        
-                        VStack {
-                            Text("3")
-                                .font(.subheadline)
-                                .fontWeight(.semibold)
-                            
-                            Text("Followers")
-                                .font(.footnote)
-                        }
-                        .frame(width: 72)
-
-                        VStack {
-                            Text("3")
-                                .font(.subheadline)
-                                .fontWeight(.semibold)
-                            
-                            Text("Following")
-                                .font(.footnote)
-                                
-                        }
-                        .frame(width: 72)
+                        UserStatView(value: 10, title: "Posts")
+                        UserStatView(value: 80, title: "Followers")
+                        UserStatView(value: 76, title: "Following")
                     }
                 }
                 .padding(.horizontal)
