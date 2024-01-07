@@ -18,6 +18,7 @@
 		08B8C4862B4A6DFA00A0D7F6 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4852B4A6DFA00A0D7F6 /* FeedCell.swift */; };
 		08B8C4882B4A7C4E00A0D7F6 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4872B4A7C4E00A0D7F6 /* SearchView.swift */; };
 		08B8C48A2B4A86C200A0D7F6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4892B4A86C100A0D7F6 /* LoginView.swift */; };
+		08B8C48C2B4A95AA00A0D7F6 /* AddEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C48B2B4A95A900A0D7F6 /* AddEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		08B8C4852B4A6DFA00A0D7F6 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		08B8C4872B4A7C4E00A0D7F6 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		08B8C4892B4A86C100A0D7F6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		08B8C48B2B4A95A900A0D7F6 /* AddEmailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				08B8C4892B4A86C100A0D7F6 /* LoginView.swift */,
+				08B8C48B2B4A95A900A0D7F6 /* AddEmailView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 				08B8C48A2B4A86C200A0D7F6 /* LoginView.swift in Sources */,
 				08B8C4492B497D5200A0D7F6 /* ContentView.swift in Sources */,
 				08B8C4472B497D5200A0D7F6 /* SwiftUIPracticeApp.swift in Sources */,
+				08B8C48C2B4A95AA00A0D7F6 /* AddEmailView.swift in Sources */,
 				08B8C4882B4A7C4E00A0D7F6 /* SearchView.swift in Sources */,
 				08B8C4822B498CB600A0D7F6 /* UserStatView.swift in Sources */,
 				08B8C4842B4A6DF200A0D7F6 /* FeedView.swift in Sources */,
