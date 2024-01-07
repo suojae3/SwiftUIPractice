@@ -16,6 +16,7 @@
 		08B8C4822B498CB600A0D7F6 /* UserStatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4812B498CB600A0D7F6 /* UserStatView.swift */; };
 		08B8C4842B4A6DF200A0D7F6 /* FeedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4832B4A6DF200A0D7F6 /* FeedView.swift */; };
 		08B8C4862B4A6DFA00A0D7F6 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4852B4A6DFA00A0D7F6 /* FeedCell.swift */; };
+		08B8C4882B4A7C4E00A0D7F6 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4872B4A7C4E00A0D7F6 /* SearchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		08B8C4812B498CB600A0D7F6 /* UserStatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStatView.swift; sourceTree = "<group>"; };
 		08B8C4832B4A6DF200A0D7F6 /* FeedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedView.swift; sourceTree = "<group>"; };
 		08B8C4852B4A6DFA00A0D7F6 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		08B8C4872B4A7C4E00A0D7F6 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 		08B8C45B2B497E2D00A0D7F6 /* Search */ = {
 			isa = PBXGroup;
 			children = (
+				08B8C4872B4A7C4E00A0D7F6 /* SearchView.swift */,
 			);
 			path = Search;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 				08B8C4652B49825800A0D7F6 /* ProfileView.swift in Sources */,
 				08B8C4492B497D5200A0D7F6 /* ContentView.swift in Sources */,
 				08B8C4472B497D5200A0D7F6 /* SwiftUIPracticeApp.swift in Sources */,
+				08B8C4882B4A7C4E00A0D7F6 /* SearchView.swift in Sources */,
 				08B8C4822B498CB600A0D7F6 /* UserStatView.swift in Sources */,
 				08B8C4842B4A6DF200A0D7F6 /* FeedView.swift in Sources */,
 				08B8C4632B497FF600A0D7F6 /* MainTabView.swift in Sources */,
