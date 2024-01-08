@@ -27,13 +27,10 @@ struct AddEmailView: View {
                 .padding(.horizontal, 25)
             
             TextField("Email", text: $email)
-                .font(.subheadline)
-                .padding(12)
-                .background(Color(.systemGray5))
-                .cornerRadius(10)
-                .padding(.horizontal, 25)
-            
-            
+                .autocorrectionDisabled()
+                .modifier(TextFieldModifier())
+                .padding(.top)
+    
             NavigationLink {
                 CreateUserNameView()
                     .navigationBarBackButtonHidden(true)

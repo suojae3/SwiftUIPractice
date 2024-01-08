@@ -1,5 +1,5 @@
 //
-//  CreateUserName.swift
+//  CreatePasswordView.swift
 //  SwiftUIPractice
 //
 //  Created by ㅣ on 1/8/24.
@@ -7,32 +7,31 @@
 
 import SwiftUI
 
-struct CreateUserNameView: View {
+struct CreatePasswordView: View {
     
-    @State private var userName = ""
+    @State private var password = ""
     @Environment(\.dismiss) var dismiss
     
     var body: some View {
-        VStack {
-            Text("Create Username")
+        VStack(spacing: 12) {
+            Text("Create Password")
                 .font(.title2)
                 .fontWeight(.bold)
                 .padding(.top)
             
-            Text("You'll use this Name to your account!")
+            Text("Your passowrd must be at least 6 chracters in length")
                 .font(.footnote)
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 25)
             
-            TextField("Name", text: $userName)
+            SecureField("Password", text: $password)
                 .autocorrectionDisabled()
                 .modifier(TextFieldModifier())
                 .padding(.top)
 
             NavigationLink {
-                CreatePasswordView()
-                    .navigationBarBackButtonHidden()
+
             } label: {
                 Text("Next")
                     .font(.subheadline)
@@ -59,5 +58,5 @@ struct CreateUserNameView: View {
 }
 
 #Preview {
-    CreateUserNameView()
+    CreatePasswordView()
 }
