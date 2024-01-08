@@ -1,13 +1,13 @@
 //
-//  ProfileView.swift
+//  CurrentUserProfileView.swift
 //  SwiftUIPractice
 //
-//  Created by ㅣ on 1/6/24.
+//  Created by ㅣ on 1/8/24.
 //
 
 import SwiftUI
 
-struct ProfileView: View {
+struct CurrentUserProfileView: View {
     
     private let gridItems: [GridItem] = [
         .init(.flexible(), spacing: 1),
@@ -16,8 +16,8 @@ struct ProfileView: View {
     ]
     
     var body: some View {
-        ScrollView {
-            VStack {
+        NavigationStack {
+            ScrollView {
                 // header
                 VStack(spacing: 10) {
                     // pic and stats
@@ -55,7 +55,7 @@ struct ProfileView: View {
                         
                     } label: {
                         Text("Edit Profile")
-                            .font(.subheadline)
+                            .font(.subheadline) 
                             .fontWeight(.semibold)
                             .frame(width: 360, height: 32)
                             .foregroundColor(.black)
@@ -77,10 +77,22 @@ struct ProfileView: View {
             }
             .navigationTitle("Profile")
             .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button {
+                        
+                    } label: {
+                        Image(systemName: "line.3.horizontal")
+                            .foregroundColor(.black)
+                    }
+                }
+            }
         }
     }
 }
 
+
+
 #Preview {
-    ProfileView()
+    CurrentUserProfileView()
 }
