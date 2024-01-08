@@ -9,12 +9,12 @@ import SwiftUI
 
 struct LoginView: View {
     
-    @State private var email = ""
+    @State var email = ""
     @State private var password = ""
     
     var body: some View {
         NavigationStack {
-            VStack {
+            VStack(spacing: 30) {
                 
                 Spacer()
                 
@@ -28,19 +28,14 @@ struct LoginView: View {
                 VStack {
                     TextField("Enter your email", text: $email)
                         .autocapitalization(.none)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray5))
-                        .cornerRadius(10)
-                        .padding(.horizontal, 24)
+                        .modifier(TextFieldModifier())
                     
+
                     TextField("Enter your password", text: $password)
                         .autocapitalization(.none)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray5))
-                        .cornerRadius(10)
-                        .padding(.horizontal, 24)
+                        .modifier(TextFieldModifier())
+
+
                 }
                 .frame(maxWidth: .infinity, alignment: .trailing)
                 

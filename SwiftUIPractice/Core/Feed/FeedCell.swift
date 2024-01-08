@@ -46,7 +46,7 @@ struct FeedCell: View {
                 Button {
                     print("Comment on post")
                 } label: {
-                    Image(systemName: "bubble.righ  t")
+                    Image(systemName: "bubble.right")
                         .imageScale(.large)
                 }
                 
