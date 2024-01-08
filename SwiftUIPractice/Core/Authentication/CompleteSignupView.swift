@@ -1,5 +1,5 @@
 //
-//  CreatePasswordView.swift
+//  CompleteSignupView.swift
 //  SwiftUIPractice
 //
 //  Created by ㅣ on 1/8/24.
@@ -7,34 +7,34 @@
 
 import SwiftUI
 
-struct CreatePasswordView: View {
+struct CompleteSignupView: View {
     
-    @State private var password = ""
     @Environment(\.dismiss) var dismiss
-    
+
     var body: some View {
         VStack(spacing: 12) {
-            Text("Create Password")
+            
+            Spacer()
+            
+            Text("Welcome to TastyCode")
                 .font(.title2)
                 .fontWeight(.bold)
                 .padding(.top)
             
-            Text("Your passowrd must be at least 6 chracters in length")
+            Text("Click below to complete registration and start using Instagrams")
                 .font(.footnote)
                 .foregroundColor(.gray)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 25)
             
-            SecureField("Password", text: $password)
-                .autocorrectionDisabled()
-                .modifier(TextFieldModifier())
-                .padding(.top)
 
-            NavigationLink {
-                CompleteSignupView()
-                    .navigationBarBackButtonHidden()
+            
+            Button {
+                print("complete Sign up")
+                
+                
             } label: {
-                Text("Next")
+                Text("Compete Sign Up")
                     .font(.subheadline)
                     .fontWeight(.semibold)
                     .foregroundColor(Color(.white))
@@ -59,5 +59,5 @@ struct CreatePasswordView: View {
 }
 
 #Preview {
-    CreatePasswordView()
+    CompleteSignupView()
 }

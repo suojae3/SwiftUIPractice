@@ -22,6 +22,7 @@
 		08B8C48E2B4AA04400A0D7F6 /* TextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C48D2B4AA04400A0D7F6 /* TextFieldModifier.swift */; };
 		08B8C4902B4BF7CD00A0D7F6 /* CreateUserNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C48F2B4BF7CD00A0D7F6 /* CreateUserNameView.swift */; };
 		08B8C4922B4C04A700A0D7F6 /* CreatePasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4912B4C04A700A0D7F6 /* CreatePasswordView.swift */; };
+		08B8C4942B4C072200A0D7F6 /* CompleteSignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4932B4C072200A0D7F6 /* CompleteSignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		08B8C48D2B4AA04400A0D7F6 /* TextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldModifier.swift; sourceTree = "<group>"; };
 		08B8C48F2B4BF7CD00A0D7F6 /* CreateUserNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateUserNameView.swift; sourceTree = "<group>"; };
 		08B8C4912B4C04A700A0D7F6 /* CreatePasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePasswordView.swift; sourceTree = "<group>"; };
+		08B8C4932B4C072200A0D7F6 /* CompleteSignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompleteSignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +146,7 @@
 				08B8C48B2B4A95A900A0D7F6 /* AddEmailView.swift */,
 				08B8C48F2B4BF7CD00A0D7F6 /* CreateUserNameView.swift */,
 				08B8C4912B4C04A700A0D7F6 /* CreatePasswordView.swift */,
+				08B8C4932B4C072200A0D7F6 /* CompleteSignupView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 				08B8C4882B4A7C4E00A0D7F6 /* SearchView.swift in Sources */,
 				08B8C4822B498CB600A0D7F6 /* UserStatView.swift in Sources */,
 				08B8C4842B4A6DF200A0D7F6 /* FeedView.swift in Sources */,
+				08B8C4942B4C072200A0D7F6 /* CompleteSignupView.swift in Sources */,
 				08B8C48E2B4AA04400A0D7F6 /* TextFieldModifier.swift in Sources */,
 				08B8C4632B497FF600A0D7F6 /* MainTabView.swift in Sources */,
 				08B8C4902B4BF7CD00A0D7F6 /* CreateUserNameView.swift in Sources */,
