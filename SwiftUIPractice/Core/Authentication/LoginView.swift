@@ -14,10 +14,10 @@ struct LoginView: View {
     
     var body: some View {
         NavigationStack {
+            Spacer()
+            
             VStack(spacing: 30) {
-                
-                Spacer()
-    
+            
                 // logo Image
                 Image("TastyCodeLogo")
                     .resizable()
