@@ -41,7 +41,7 @@ struct SearchView: View {
                     }
                 }
                 .navigationDestination(for: User.self, destination: { user in
-                    ProfileView()
+                    ProfileView(user: user)
                 })
                 .padding(.top, 8)
                 .searchable(text: $searchText, prompt: "Search...")
