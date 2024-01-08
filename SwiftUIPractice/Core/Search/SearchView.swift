@@ -14,7 +14,7 @@ struct SearchView: View {
         NavigationStack {
             ScrollView {
                 LazyVStack(spacing: 12) {
-                    ForEach(0...15, id: \.self) {user in
+                    ForEach(User.MOCK_USERS) {user in
                         HStack {
                             Image("Sessac")
                                 .resizable()
