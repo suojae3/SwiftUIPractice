@@ -17,7 +17,7 @@ struct LoginView: View {
             VStack(spacing: 30) {
                 
                 Spacer()
-                
+    
                 // logo Image
                 Image("TastyCodeLogo")
                     .resizable()
@@ -34,8 +34,6 @@ struct LoginView: View {
                     TextField("Enter your password", text: $password)
                         .autocapitalization(.none)
                         .modifier(TextFieldModifier())
-
-
                 }
                 .frame(maxWidth: .infinity, alignment: .trailing)
                 
