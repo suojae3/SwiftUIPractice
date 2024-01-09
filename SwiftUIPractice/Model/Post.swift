@@ -34,7 +34,7 @@ extension Post {
             ownerUid: NSUUID().uuidString,
             caption: "This is test caption",
             likes: 150,
-            imageUrl: "Map",
+            imageUrl: "Book",
             timeStamp: Date(),
             user: User.MOCK_USERS[3]
         ),

@@ -31,8 +31,7 @@ struct CompleteSignupView: View {
             
             Button {
                 print("complete Sign up")
-                
-                
+
             } label: {
                 Text("Compete Sign Up")
                     .font(.subheadline)
