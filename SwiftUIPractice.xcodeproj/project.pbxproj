@@ -17,6 +17,8 @@
 		08B6801B2B4D6A5800C2C55F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 08B6801A2B4D6A5800C2C55F /* FirebaseFirestore */; };
 		08B6801D2B4D6A5800C2C55F /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 08B6801C2B4D6A5800C2C55F /* FirebaseFirestoreSwift */; };
 		08B6801F2B4D6A5800C2C55F /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 08B6801E2B4D6A5800C2C55F /* FirebaseStorage */; };
+		08B680232B4D6F4B00C2C55F /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B680222B4D6F4B00C2C55F /* AuthService.swift */; };
+		08B680272B4D72DA00C2C55F /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B680262B4D72DA00C2C55F /* ContentViewModel.swift */; };
 		08B8C4472B497D5200A0D7F6 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4462B497D5200A0D7F6 /* SwiftUIPracticeApp.swift */; };
 		08B8C4492B497D5200A0D7F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4482B497D5200A0D7F6 /* ContentView.swift */; };
 		08B8C44B2B497D5500A0D7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B8C44A2B497D5500A0D7F6 /* Assets.xcassets */; };
@@ -44,6 +46,8 @@
 		08B680112B4D35D600C2C55F /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		08B680132B4D394000C2C55F /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		08B680152B4D699400C2C55F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08B680222B4D6F4B00C2C55F /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		08B680262B4D72DA00C2C55F /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		08B8C4432B497D5200A0D7F6 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B8C4462B497D5200A0D7F6 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		08B8C4482B497D5200A0D7F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +84,42 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08B680202B4D6CD500C2C55F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08B8C4892B4A86C100A0D7F6 /* LoginView.swift */,
+				08B8C48B2B4A95A900A0D7F6 /* AddEmailView.swift */,
+				08B8C48F2B4BF7CD00A0D7F6 /* CreateUserNameView.swift */,
+				08B8C4912B4C04A700A0D7F6 /* CreatePasswordView.swift */,
+				08B8C4932B4C072200A0D7F6 /* CompleteSignupView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08B680212B4D6F4100C2C55F /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				08B680222B4D6F4B00C2C55F /* AuthService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		08B680242B4D72BB00C2C55F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				08B8C4482B497D5200A0D7F6 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		08B680252B4D72C200C2C55F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				08B680262B4D72DA00C2C55F /* ContentViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		08B8C43A2B497D5200A0D7F6 = {
 			isa = PBXGroup;
 			children = (
@@ -104,7 +144,6 @@
 				08B8C4572B497DB600A0D7F6 /* Extension */,
 				08B8C4542B497D6400A0D7F6 /* Model */,
 				08B8C4562B497DB300A0D7F6 /* Service */,
-				08B8C4482B497D5200A0D7F6 /* ContentView.swift */,
 				08B680152B4D699400C2C55F /* GoogleService-Info.plist */,
 				08B8C44A2B497D5500A0D7F6 /* Assets.xcassets */,
 				08B8C44C2B497D5500A0D7F6 /* Preview Content */,
@@ -169,11 +208,8 @@
 		08B8C45A2B497E2900A0D7F6 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				08B8C4892B4A86C100A0D7F6 /* LoginView.swift */,
-				08B8C48B2B4A95A900A0D7F6 /* AddEmailView.swift */,
-				08B8C48F2B4BF7CD00A0D7F6 /* CreateUserNameView.swift */,
-				08B8C4912B4C04A700A0D7F6 /* CreatePasswordView.swift */,
-				08B8C4932B4C072200A0D7F6 /* CompleteSignupView.swift */,
+				08B680212B4D6F4100C2C55F /* Service */,
+				08B680202B4D6CD500C2C55F /* View */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -189,6 +225,8 @@
 		08B8C45C2B497E3500A0D7F6 /* Root */ = {
 			isa = PBXGroup;
 			children = (
+				08B680252B4D72C200C2C55F /* ViewModel */,
+				08B680242B4D72BB00C2C55F /* View */,
 			);
 			path = Root;
 			sourceTree = "<group>";
@@ -324,12 +362,14 @@
 				08B8C4652B49825800A0D7F6 /* ProfileView.swift in Sources */,
 				08B8C48A2B4A86C200A0D7F6 /* LoginView.swift in Sources */,
 				08B8C4492B497D5200A0D7F6 /* ContentView.swift in Sources */,
+				08B680232B4D6F4B00C2C55F /* AuthService.swift in Sources */,
 				08B67FE82B4CE56E00C2C55F /* Post.swift in Sources */,
 				08B8C4472B497D5200A0D7F6 /* SwiftUIPracticeApp.swift in Sources */,
 				08B8C4982B4C1CE900A0D7F6 /* CurrentUserProfileView.swift in Sources */,
 				08B8C48C2B4A95AA00A0D7F6 /* AddEmailView.swift in Sources */,
 				08B6800E2B4D28AC00C2C55F /* PostGridView.swift in Sources */,
 				08B8C4882B4A7C4E00A0D7F6 /* SearchView.swift in Sources */,
+				08B680272B4D72DA00C2C55F /* ContentViewModel.swift in Sources */,
 				08B680142B4D394000C2C55F /* UploadPostViewModel.swift in Sources */,
 				08B680102B4D31A400C2C55F /* ProfileHeaderView.swift in Sources */,
 				08B8C4822B498CB600A0D7F6 /* UserStatView.swift in Sources */,
