@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08B67FE82B4CE56E00C2C55F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B67FE72B4CE56E00C2C55F /* Post.swift */; };
 		08B8C4472B497D5200A0D7F6 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4462B497D5200A0D7F6 /* SwiftUIPracticeApp.swift */; };
 		08B8C4492B497D5200A0D7F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4482B497D5200A0D7F6 /* ContentView.swift */; };
 		08B8C44B2B497D5500A0D7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B8C44A2B497D5500A0D7F6 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		08B67FE72B4CE56E00C2C55F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		08B8C4432B497D5200A0D7F6 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B8C4462B497D5200A0D7F6 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		08B8C4482B497D5200A0D7F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				08B8C4952B4C0F0300A0D7F6 /* User.swift */,
+				08B67FE72B4CE56E00C2C55F /* Post.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				08B8C4652B49825800A0D7F6 /* ProfileView.swift in Sources */,
 				08B8C48A2B4A86C200A0D7F6 /* LoginView.swift in Sources */,
 				08B8C4492B497D5200A0D7F6 /* ContentView.swift in Sources */,
+				08B67FE82B4CE56E00C2C55F /* Post.swift in Sources */,
 				08B8C4472B497D5200A0D7F6 /* SwiftUIPracticeApp.swift in Sources */,
 				08B8C4982B4C1CE900A0D7F6 /* CurrentUserProfileView.swift in Sources */,
 				08B8C48C2B4A95AA00A0D7F6 /* AddEmailView.swift in Sources */,
