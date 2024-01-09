@@ -10,6 +10,7 @@
 		08B67FE82B4CE56E00C2C55F /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B67FE72B4CE56E00C2C55F /* Post.swift */; };
 		08B6800E2B4D28AC00C2C55F /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B6800D2B4D28AC00C2C55F /* PostGridView.swift */; };
 		08B680102B4D31A400C2C55F /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B6800F2B4D31A400C2C55F /* ProfileHeaderView.swift */; };
+		08B680122B4D35D600C2C55F /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B680112B4D35D600C2C55F /* UploadPostView.swift */; };
 		08B8C4472B497D5200A0D7F6 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4462B497D5200A0D7F6 /* SwiftUIPracticeApp.swift */; };
 		08B8C4492B497D5200A0D7F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4482B497D5200A0D7F6 /* ContentView.swift */; };
 		08B8C44B2B497D5500A0D7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B8C44A2B497D5500A0D7F6 /* Assets.xcassets */; };
@@ -34,6 +35,7 @@
 		08B67FE72B4CE56E00C2C55F /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		08B6800D2B4D28AC00C2C55F /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		08B6800F2B4D31A400C2C55F /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
+		08B680112B4D35D600C2C55F /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
 		08B8C4432B497D5200A0D7F6 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B8C4462B497D5200A0D7F6 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		08B8C4482B497D5200A0D7F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 		08B8C4612B497EFB00A0D7F6 /* UploadPost */ = {
 			isa = PBXGroup;
 			children = (
+				08B680112B4D35D600C2C55F /* UploadPostView.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08B8C4862B4A6DFA00A0D7F6 /* FeedCell.swift in Sources */,
+				08B680122B4D35D600C2C55F /* UploadPostView.swift in Sources */,
 				08B8C4652B49825800A0D7F6 /* ProfileView.swift in Sources */,
 				08B8C48A2B4A86C200A0D7F6 /* LoginView.swift in Sources */,
 				08B8C4492B497D5200A0D7F6 /* ContentView.swift in Sources */,
