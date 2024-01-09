@@ -11,6 +11,7 @@
 		08B6800E2B4D28AC00C2C55F /* PostGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B6800D2B4D28AC00C2C55F /* PostGridView.swift */; };
 		08B680102B4D31A400C2C55F /* ProfileHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B6800F2B4D31A400C2C55F /* ProfileHeaderView.swift */; };
 		08B680122B4D35D600C2C55F /* UploadPostView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B680112B4D35D600C2C55F /* UploadPostView.swift */; };
+		08B680142B4D394000C2C55F /* UploadPostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B680132B4D394000C2C55F /* UploadPostViewModel.swift */; };
 		08B8C4472B497D5200A0D7F6 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4462B497D5200A0D7F6 /* SwiftUIPracticeApp.swift */; };
 		08B8C4492B497D5200A0D7F6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B8C4482B497D5200A0D7F6 /* ContentView.swift */; };
 		08B8C44B2B497D5500A0D7F6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08B8C44A2B497D5500A0D7F6 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 		08B6800D2B4D28AC00C2C55F /* PostGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostGridView.swift; sourceTree = "<group>"; };
 		08B6800F2B4D31A400C2C55F /* ProfileHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileHeaderView.swift; sourceTree = "<group>"; };
 		08B680112B4D35D600C2C55F /* UploadPostView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostView.swift; sourceTree = "<group>"; };
+		08B680132B4D394000C2C55F /* UploadPostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewModel.swift; sourceTree = "<group>"; };
 		08B8C4432B497D5200A0D7F6 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B8C4462B497D5200A0D7F6 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		08B8C4482B497D5200A0D7F6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 			isa = PBXGroup;
 			children = (
 				08B680112B4D35D600C2C55F /* UploadPostView.swift */,
+				08B680132B4D394000C2C55F /* UploadPostViewModel.swift */,
 			);
 			path = UploadPost;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				08B8C48C2B4A95AA00A0D7F6 /* AddEmailView.swift in Sources */,
 				08B6800E2B4D28AC00C2C55F /* PostGridView.swift in Sources */,
 				08B8C4882B4A7C4E00A0D7F6 /* SearchView.swift in Sources */,
+				08B680142B4D394000C2C55F /* UploadPostViewModel.swift in Sources */,
 				08B680102B4D31A400C2C55F /* ProfileHeaderView.swift in Sources */,
 				08B8C4822B498CB600A0D7F6 /* UserStatView.swift in Sources */,
 				08B8C4962B4C0F0300A0D7F6 /* User.swift in Sources */,
